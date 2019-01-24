@@ -1,9 +1,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+#include <string.h>
+#include "headfile/global.h"
+#include "headfile/books.h"
 
 int main(int argc, char *argv[]) {
+	
+	FILE *file;
+	file = fopen( "file\\sys.log", "w+" );
+	fprintf( file, "sys.log" );
+	fclose( file );
+	//file_close( file );
+	
 	return 0;
 }

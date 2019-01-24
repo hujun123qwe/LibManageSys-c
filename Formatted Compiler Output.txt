@@ -1,0 +1,161 @@
+2019/1/24 15:57:38: Creating log...
+
+		D:\hujun\c\LibManageSys-c\cc1.exe	[Error] command line option '-std=c++11' is valid for C++/ObjC++ but not for C [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:19:58: Appending to log...
+
+6	36	D:\hujun\c\LibManageSys-c\main.c	[Error] function/file_opreate.c: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:20:27: Appending to log...
+
+9	0	D:\hujun\c\LibManageSys-c\function\file_operate.c	In file included from function/file_operate.c
+6		D:\hujun\c\LibManageSys-c\main.c	                 from main.c
+10	1	D:\hujun\c\LibManageSys-c\headfile\file.h	[Error] expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+			compilation terminated due to -Wfatal-errors.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:20:54: Appending to log...
+
+6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+11	1	D:\hujun\c\LibManageSys-c\function\file_operate.c	[Error] unknown type name 'bool'
+			compilation terminated due to -Wfatal-errors.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:24:27: Appending to log...
+
+6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+11	1	D:\hujun\c\LibManageSys-c\function\file_operate.c	[Error] unknown type name 'bool'
+			compilation terminated due to -Wfatal-errors.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:24:59: Appending to log...
+
+5	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+9	14	D:\hujun\c\LibManageSys-c\headfile\global.h	[Error] expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+			compilation terminated due to -Wfatal-errors.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:26:10: Appending to log...
+
+7	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+		D:\hujun\c\LibManageSys-c\function\file_operate.c	In function 'file_open':
+13	12	D:\hujun\c\LibManageSys-c\function\file_operate.c	[Error] assignment makes pointer from integer without a cast [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:26:31: Appending to log...
+
+7	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+		D:\hujun\c\LibManageSys-c\function\file_operate.c	In function 'file_close':
+26	21	D:\hujun\c\LibManageSys-c\function\file_operate.c	[Error] comparison between pointer and integer [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:27:02: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main':
+12	2	D:\hujun\c\LibManageSys-c\main.c	[Error] expected '=', ',', ';', 'asm' or '__attribute__' before 'file'
+			compilation terminated due to -Wfatal-errors.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:27:10: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main':
+13	2	D:\hujun\c\LibManageSys-c\main.c	[Error] passing argument 2 of 'fwrite' makes integer from pointer without a cast [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:27:33: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main':
+13	2	D:\hujun\c\LibManageSys-c\main.c	[Error] passing argument 1 of 'fputs' from incompatible pointer type [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:27:45: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main':
+13	2	D:\hujun\c\LibManageSys-c\main.c	[Error] passing argument 1 of 'fputs' from incompatible pointer type [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:28:01: Appending to log...
+
+11	1	D:\hujun\c\LibManageSys-c\function\file_operate.c	[Error] unknown type name 'bool'
+			compilation terminated due to -Wfatal-errors.
+32		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/file_operate.o' failed
+
+2019/1/24 16:28:32: Appending to log...
+
+11	17	D:\hujun\c\LibManageSys-c\function\file_operate.c	[Error] unknown type name 'FILE'
+			compilation terminated due to -Wfatal-errors.
+32		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/file_operate.o' failed
+
+2019/1/24 16:29:03: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\function\file_operate.o	In function `file_open':
+12		D:\hujun\c\LibManageSys-c\function\file_operate.c	multiple definition of `file_open'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/function/file_operate.c:12: first defined here
+		D:\hujun\c\LibManageSys-c\function\file_operate.o	In function `file_close':
+25		D:\hujun\c\LibManageSys-c\function\file_operate.c	multiple definition of `file_close'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/function/file_operate.c:25: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/24 16:29:33: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\function\file_operate.o	In function `file_close':
+25		D:\hujun\c\LibManageSys-c\function\file_operate.c	multiple definition of `file_close'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/function/file_operate.c:25: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/24 16:31:44: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main':
+12	16	D:\hujun\c\LibManageSys-c\main.c	[Error] unknown escape sequence: '\s' [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:31:53: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main':
+14	2	D:\hujun\c\LibManageSys-c\main.c	[Error] implicit declaration of function 'file_close' [-Werror=implicit-function-declaration]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 16:32:18: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\function\file_operate.o	In function `file_opens':
+12		D:\hujun\c\LibManageSys-c\function\file_operate.c	multiple definition of `file_opens'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/function/file_operate.c:12: first defined here
+		D:\hujun\c\LibManageSys-c\function\file_operate.o	In function `file_closes':
+25		D:\hujun\c\LibManageSys-c\function\file_operate.c	multiple definition of `file_closes'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/function/file_operate.c:25: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/24 17:24:16: Appending to log...
+
+6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Error] useless storage class specifier in empty declaration [-Werror]
+			compilation terminated due to -Wfatal-errors.
+		D:\hujun\c\LibManageSys-c\cc1.exe	all warnings being treated as errors
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 17:24:51: Appending to log...
+
+6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Warning] useless storage class specifier in empty declaration [enabled by default]

@@ -1,0 +1,804 @@
+2019/1/24 15:57:38: Creating log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c++11 -Werror -Wfatal-errors -pg -g3
+cc1.exe: error: command line option '-std=c++11' is valid for C++/ObjC++ but not for C [-Werror]
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.75s
+
+2019/1/24 15:58:28: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 2.17s
+
+2019/1/24 15:58:35: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 1.11s
+
+2019/1/24 16:19:58: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c:6:36: fatal error: function/file_opreate.c: No such file or directory
+ #include "function/file_opreate.c" 
+                                    ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.70s
+
+2019/1/24 16:20:27: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from function/file_operate.c:9:0,
+                 from main.c:6:
+function/../headfile/file.h:10:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.48s
+
+2019/1/24 16:20:54: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from main.c:6:0:
+function/file_operate.c:11:1: error: unknown type name 'bool'
+ bool file_open( FILE *file, char *file_name )
+ ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.39s
+
+2019/1/24 16:24:27: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from main.c:6:0:
+function/file_operate.c:11:1: error: unknown type name 'bool'
+ bool file_open( FILE *file, char *file_name )
+ ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.64s
+
+2019/1/24 16:24:59: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from main.c:5:0:
+headfile/global.h:9:14: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ typedef bool int;
+              ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.66s
+
+2019/1/24 16:26:10: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from main.c:7:0:
+function/file_operate.c: In function 'file_open':
+function/file_operate.c:13:12: error: assignment makes pointer from integer without a cast [-Werror]
+  if ( file = fopen( file_name, "w+") == NULL )
+            ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.64s
+
+2019/1/24 16:26:31: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from main.c:7:0:
+function/file_operate.c: In function 'file_close':
+function/file_operate.c:26:21: error: comparison between pointer and integer [-Werror]
+  if( fclose( file ) == NULL )
+                     ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.45s
+
+2019/1/24 16:27:02: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c: In function 'main':
+main.c:12:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'file'
+  file = fopen( "sys.log", "w+" );
+  ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.53s
+
+2019/1/24 16:27:10: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c: In function 'main':
+main.c:13:2: error: passing argument 2 of 'fwrite' makes integer from pointer without a cast [-Werror]
+  fwrite( file, "sys.log" );
+  ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.56s
+
+2019/1/24 16:27:33: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c: In function 'main':
+main.c:13:2: error: passing argument 1 of 'fputs' from incompatible pointer type [-Werror]
+  fputs( file, "sys.log" );
+  ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.52s
+
+2019/1/24 16:27:45: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c: In function 'main':
+main.c:13:2: error: passing argument 1 of 'fputs' from incompatible pointer type [-Werror]
+  fputs( file, "sys.log" );
+  ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.45s
+
+2019/1/24 16:28:01: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+gcc.exe -D__DEBUG__ -c function/file_operate.c -o function/file_operate.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+function/file_operate.c:11:1: error: unknown type name 'bool'
+ bool file_open( FILE *file, char *file_name )
+ ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:32: recipe for target 'function/file_operate.o' failed
+mingw32-make.exe: *** [function/file_operate.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.84s
+
+2019/1/24 16:28:32: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/file_operate.c -o function/file_operate.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+function/file_operate.c:11:17: error: unknown type name 'FILE'
+ bool file_open( FILE *file, char *file_name )
+                 ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:32: recipe for target 'function/file_operate.o' failed
+mingw32-make.exe: *** [function/file_operate.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 174.8720703125 KiB
+- 编译时间: 0.38s
+
+2019/1/24 16:29:03: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/file_operate.c -o function/file_operate.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/file_operate.o: In function `file_open':
+D:\hujun\c\LibManageSys-c/function/file_operate.c:12: multiple definition of `file_open'
+main.o:D:\hujun\c\LibManageSys-c/function/file_operate.c:12: first defined here
+function/file_operate.o: In function `file_close':
+D:\hujun\c\LibManageSys-c/function/file_operate.c:25: multiple definition of `file_close'
+main.o:D:\hujun\c\LibManageSys-c/function/file_operate.c:25: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 1.09s
+
+2019/1/24 16:29:33: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/file_operate.c -o function/file_operate.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/file_operate.o: In function `file_close':
+D:\hujun\c\LibManageSys-c/function/file_operate.c:25: multiple definition of `file_close'
+main.o:D:\hujun\c\LibManageSys-c/function/file_operate.c:25: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.78s
+
+2019/1/24 16:29:43: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/file_operate.c -o function/file_operate.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 197.5576171875 KiB
+- 编译时间: 1.17s
+
+2019/1/24 16:31:44: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c: In function 'main':
+main.c:12:16: error: unknown escape sequence: '\s' [-Werror]
+  file = fopen( "file\sys.log", "w+" );
+                ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 197.5576171875 KiB
+- 编译时间: 0.64s
+
+2019/1/24 16:31:53: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+main.c: In function 'main':
+main.c:14:2: error: implicit declaration of function 'file_close' [-Werror=implicit-function-declaration]
+  file_close( file );
+  ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 197.5576171875 KiB
+- 编译时间: 0.44s
+
+2019/1/24 16:32:18: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/file_operate.o: In function `file_opens':
+D:\hujun\c\LibManageSys-c/function/file_operate.c:12: multiple definition of `file_opens'
+main.o:D:\hujun\c\LibManageSys-c/function/file_operate.c:12: first defined here
+function/file_operate.o: In function `file_closes':
+D:\hujun\c\LibManageSys-c/function/file_operate.c:25: multiple definition of `file_closes'
+main.o:D:\hujun\c\LibManageSys-c/function/file_operate.c:25: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 1.17s
+
+2019/1/24 17:24:16: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Werror -Wfatal-errors -pg -g3
+In file included from main.c:6:0:
+headfile/books.h:18:1: error: useless storage class specifier in empty declaration [-Werror]
+ };
+ ^
+compilation terminated due to -Wfatal-errors.
+cc1.exe: all warnings being treated as errors
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.81s
+
+2019/1/24 17:24:51: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from main.c:6:0:
+headfile/books.h:18:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 1
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 197.484375 KiB
+- 编译时间: 2.03s
