@@ -4,8 +4,8 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o
-LINKOBJ  = main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o
+OBJ      = main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o function/show.o function/input.o function/menu.o
+LINKOBJ  = main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o function/show.o function/input.o function/menu.o
 LIBS     = -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
 CXXINCS  = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
@@ -38,3 +38,12 @@ test/h-file-test/file1.o: test/h-file-test/file1.c
 
 test/h-file-test/file2.o: test/h-file-test/file2.c
 	$(CC) -c test/h-file-test/file2.c -o test/h-file-test/file2.o $(CFLAGS)
+
+function/show.o: function/show.c
+	$(CC) -c function/show.c -o function/show.o $(CFLAGS)
+
+function/input.o: function/input.c
+	$(CC) -c function/input.c -o function/input.o $(CFLAGS)
+
+function/menu.o: function/menu.c
+	$(CC) -c function/menu.c -o function/menu.o $(CFLAGS)

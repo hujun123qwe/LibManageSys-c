@@ -12,9 +12,16 @@
 #include "headfile/global.h"
 #include "headfile/log.h"
 #include "headfile/books.h"
+#include "headfile/show.h"
+#include "headfile/input.h"
+#include "headfile/menu.h"
 
 int main(int argc, char *argv[]) {
 
-	 
+	menu_show();
+	
+	menu_process();
+		
+	log("test menu, divid into two parts, menu and show "); 
 	return 0;
 }
