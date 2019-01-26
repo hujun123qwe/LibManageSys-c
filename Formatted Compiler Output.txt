@@ -159,3 +159,392 @@
 
 6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
 18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Warning] useless storage class specifier in empty declaration [enabled by default]
+
+2019/1/24 20:14:39: Appending to log...
+
+6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Warning] useless storage class specifier in empty declaration [enabled by default]
+7	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.o	In function `log':
+13		D:\hujun\c\LibManageSys-c\function\log.c	multiple definition of `log'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/function/log.c:13: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/24 20:16:06: Appending to log...
+
+9	0	D:\hujun\c\LibManageSys-c\function\log.c	In file included from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from headfile/global.h
+5		D:\hujun\c\LibManageSys-c\main.c	                 from main.c
+12	29	D:\hujun\c\LibManageSys-c\headfile\global.h	[Error] ../function/log.c: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/24 20:18:06: Appending to log...
+
+12	0	D:\hujun\c\LibManageSys-c\headfile\global.h	In file included from headfile/global.h
+5		D:\hujun\c\LibManageSys-c\main.c	                 from main.c
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+6	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Warning] useless storage class specifier in empty declaration [enabled by default]
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.c	In function 'log':
+14	5	D:\hujun\c\LibManageSys-c\function\log.c	[Error] unknown type name 'FILE'
+			compilation terminated due to -Wfatal-errors.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/24 20:18:13: Appending to log...
+
+12	0	D:\hujun\c\LibManageSys-c\headfile\global.h	In file included from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/log.c
+9	32	D:\hujun\c\LibManageSys-c\function\log.c	[Error] ../headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/24 20:18:24: Appending to log...
+
+9	33	D:\hujun\c\LibManageSys-c\function\log.c	[Error] .../headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/24 20:18:35: Appending to log...
+
+9	31	D:\hujun\c\LibManageSys-c\function\log.c	[Error] ./headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/24 20:18:41: Appending to log...
+
+9	29	D:\hujun\c\LibManageSys-c\function\log.c	[Error] headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/24 20:18:49: Appending to log...
+
+9	20	D:\hujun\c\LibManageSys-c\function\log.c	[Error] global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/24 20:18:58: Appending to log...
+
+9	29	D:\hujun\c\LibManageSys-c\function\log.c	[Error] headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/26 16:54:03: Appending to log...
+
+9	29	D:\hujun\c\LibManageSys-c\function\log.c	[Error] headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/26 16:55:45: Appending to log...
+
+12	0	D:\hujun\c\LibManageSys-c\headfile\global.h	In file included from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/../function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/../headfile/../function/log.c
+12		D:\hujun\c\LibManageSys-c\headfile\global.h	                 from function/../headfile/global.h
+9		D:\hujun\c\LibManageSys-c\function\log.c	                 from function/log.c
+9	32	D:\hujun\c\LibManageSys-c\function\log.c	[Error] ../headfile/global.h: No such file or directory
+			compilation terminated.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/26 16:56:18: Appending to log...
+
+9	0	D:\hujun\c\LibManageSys-c\function\log.c	In file included from function/log.c
+23	6	D:\hujun\c\LibManageSys-c\headfile\global.h	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.o	In function `log':
+13		D:\hujun\c\LibManageSys-c\function\log.c	multiple definition of `log'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/26 16:58:24: Appending to log...
+
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.c	In function 'log':
+14	5	D:\hujun\c\LibManageSys-c\function\log.c	[Error] unknown type name 'FILE'
+			compilation terminated due to -Wfatal-errors.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/26 16:58:29: Appending to log...
+
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.c	In function 'log':
+14	5	D:\hujun\c\LibManageSys-c\function\log.c	[Error] unknown type name 'FILE'
+			compilation terminated due to -Wfatal-errors.
+35		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'function/log.o' failed
+
+2019/1/26 16:58:50: Appending to log...
+
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.c	In function 'log':
+20	2	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+20	18	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+21	2	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+21	10	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.o	In function `log':
+13		D:\hujun\c\LibManageSys-c\function\log.c	multiple definition of `log'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/26 17:13:45: Appending to log...
+
+8	19	D:\hujun\c\LibManageSys-c\test\h-file-test\file1.c	[Error] struct.h: No such file or directory
+			compilation terminated.
+38		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'test/h-file-test/file1.o' failed
+
+2019/1/26 17:14:09: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\test\h-file-test\file1.c	In function 'Initlist':
+16	2	D:\hujun\c\LibManageSys-c\test\h-file-test\file1.c	[Error] 'Sqlist' has no member named 'listsize'
+			compilation terminated due to -Wfatal-errors.
+38		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'test/h-file-test/file1.o' failed
+
+2019/1/26 17:14:20: Appending to log...
+
+18	37	D:\hujun\c\LibManageSys-c\test\h-file-test\file2.c	[Error] file1.h: No such file or directory
+			compilation terminated.
+41		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'test/h-file-test/file2.o' failed
+
+2019/1/26 17:14:40: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\test\h-file-test\file2.c	In function 'main':
+26	30	D:\hujun\c\LibManageSys-c\test\h-file-test\file2.c	[Error] 'Sqlist' has no member named 'listsize'
+			compilation terminated due to -Wfatal-errors.
+41		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'test/h-file-test/file2.o' failed
+
+2019/1/26 17:14:50: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\function\log.o	In function `log':
+13		D:\hujun\c\LibManageSys-c\function\log.c	multiple definition of `log'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+		D:\hujun\c\LibManageSys-c\test\h-file-test\file2.o	In function `main':
+20		D:\hujun\c\LibManageSys-c\test\h-file-test\file2.c	multiple definition of `main'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/main.c:8: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/26 17:15:25: Appending to log...
+
+		D:\hujun\c\LibManageSys-c\function\log.o	In function `log':
+13		D:\hujun\c\LibManageSys-c\function\log.c	multiple definition of `log'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+		D:\hujun\c\LibManageSys-c\test\h-file-test\file2.o	In function `main':
+20		D:\hujun\c\LibManageSys-c\test\h-file-test\file2.c	multiple definition of `main'
+		D:\hujun\c\LibManageSys-c\main.o	D:\hujun\c\LibManageSys-c/main.c:8: first defined here
+		D:\hujun\c\LibManageSys-c\collect2.exe	[Error] ld returned 1 exit status
+26		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'LibManageSys-c.exe' failed
+
+2019/1/26 17:18:53: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:07: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:24: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:30: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:36: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:40: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:42: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:42: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:43: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:19:52: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:20:09: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:20:11: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:20:11: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:20:12: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:20:23: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:20:35: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:21:11: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:09: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:17: Appending to log...
+
+7	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Warning] useless storage class specifier in empty declaration [enabled by default]
+		D:\hujun\c\LibManageSys-c\main.c	In function 'main2':
+10	5	D:\hujun\c\LibManageSys-c\main.c	[Warning] implicit declaration of function 'log' [-Wimplicit-function-declaration]
+10	5	D:\hujun\c\LibManageSys-c\main.c	[Warning] incompatible implicit declaration of built-in function 'log' [enabled by default]
+10	5	D:\hujun\c\LibManageSys-c\main.c	[Error] incompatible type for argument 1 of 'log'
+			compilation terminated due to -Wfatal-errors.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:23: Appending to log...
+
+7	0	D:\hujun\c\LibManageSys-c\main.c	In file included from main.c
+18	1	D:\hujun\c\LibManageSys-c\headfile\books.h	[Warning] useless storage class specifier in empty declaration [enabled by default]
+12	6	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] conflicting types for built-in function 'log' [enabled by default]
+		D:\hujun\c\LibManageSys-c\function\log.c	In function 'log':
+20	2	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+20	18	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+21	2	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+21	10	D:\hujun\c\LibManageSys-c\function\log.c	[Warning] incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+
+2019/1/26 17:22:32: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:40: Appending to log...
+
+6	27	D:\hujun\c\LibManageSys-c\main.c	[Error] /headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:41: Appending to log...
+
+6	27	D:\hujun\c\LibManageSys-c\main.c	[Error] /headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:46: Appending to log...
+
+6	28	D:\hujun\c\LibManageSys-c\main.c	[Error] ./headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:22:58: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed
+
+2019/1/26 17:24:00: Appending to log...
+
+6	26	D:\hujun\c\LibManageSys-c\main.c	[Error] headfile/log.h: No such file or directory
+			compilation terminated.
+29		D:\hujun\c\LibManageSys-c\Makefile.win	recipe for target 'main.o' failed

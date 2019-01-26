@@ -4,15 +4,14 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-RES      = LibManageSys-c_private.res
-OBJ      = main.o function/file_operate.o $(RES)
-LINKOBJ  = main.o function/file_operate.o $(RES)
-LIBS     = -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+OBJ      = main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o
+LINKOBJ  = main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o
+LIBS     = -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
 CXXINCS  = -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
 BIN      = LibManageSys-c.exe
-CXXFLAGS = $(CXXINCS) -ansi -std=c99 -Wfatal-errors -pg -g3
-CFLAGS   = $(INCS) -ansi -std=c99 -Wfatal-errors -pg -g3
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -31,6 +30,11 @@ main.o: main.c
 function/file_operate.o: function/file_operate.c
 	$(CC) -c function/file_operate.c -o function/file_operate.o $(CFLAGS)
 
-LibManageSys-c_private.res: LibManageSys-c_private.rc 
-	$(WINDRES) -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+function/log.o: function/log.c
+	$(CC) -c function/log.c -o function/log.o $(CFLAGS)
 
+test/h-file-test/file1.o: test/h-file-test/file1.c
+	$(CC) -c test/h-file-test/file1.c -o test/h-file-test/file1.o $(CFLAGS)
+
+test/h-file-test/file2.o: test/h-file-test/file2.c
+	$(CC) -c test/h-file-test/file2.c -o test/h-file-test/file2.o $(CFLAGS)

@@ -802,3 +802,1622 @@ gcc.exe -D__DEBUG__ main.o function/file_operate.o LibManageSys-c_private.res -o
 - 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
 - 输出大小: 197.484375 KiB
 - 编译时间: 2.03s
+
+2019/1/24 20:14:39: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from main.c:6:0:
+headfile/books.h:18:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from main.c:7:0:
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o function/log.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/log.o: In function `log':
+D:\hujun\c\LibManageSys-c/function/log.c:13: multiple definition of `log'
+main.o:D:\hujun\c\LibManageSys-c/function/log.c:13: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 3
+- 编译时间: 2.19s
+
+2019/1/24 20:16:06: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9:0,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/../headfile/../function/log.c:9,
+                 from headfile/../function/../headfile/global.h:12,
+                 from headfile/../function/log.c:9,
+                 from headfile/global.h:12,
+                 from main.c:5:
+headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12:29: fatal error: ../function/log.c: No such file or directory
+ #include "../function/log.c"
+                             ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.64s
+
+2019/1/24 20:18:06: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from headfile/global.h:12:0,
+                 from main.c:5:
+headfile/../function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+In file included from main.c:6:0:
+headfile/books.h:18:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+function/log.c: In function 'log':
+function/log.c:14:5: error: unknown type name 'FILE'
+     FILE *file;
+     ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 3
+- 编译时间: 1.09s
+
+2019/1/24 20:18:13: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12:0,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/log.c:9,
+                 from function/../headfile/global.h:12,
+                 from function/log.c:9:
+function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9:32: fatal error: ../headfile/global.h: No such file or directory
+ #include "../headfile/global.h"
+                                ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.44s
+
+2019/1/24 20:18:24: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:9:33: fatal error: .../headfile/global.h: No such file or directory
+ #include ".../headfile/global.h"
+                                 ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.38s
+
+2019/1/24 20:18:35: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:9:31: fatal error: ./headfile/global.h: No such file or directory
+ #include "./headfile/global.h"
+                               ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.34s
+
+2019/1/24 20:18:41: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:9:29: fatal error: headfile/global.h: No such file or directory
+ #include "headfile/global.h"
+                             ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.34s
+
+2019/1/24 20:18:49: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:9:20: fatal error: global.h: No such file or directory
+ #include "global.h"
+                    ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.36s
+
+2019/1/24 20:18:58: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:9:29: fatal error: headfile/global.h: No such file or directory
+ #include "headfile/global.h"
+                             ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.33s
+
+2019/1/26 16:54:03: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:9:29: fatal error: headfile/global.h: No such file or directory
+ #include "headfile/global.h"
+                             ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 7.38s
+
+2019/1/26 16:55:45: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12:0,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/../headfile/../function/log.c:9,
+                 from function/../headfile/../function/../headfile/global.h:12,
+                 from function/../headfile/../function/log.c:9,
+                 from function/../headfile/global.h:12,
+                 from function/log.c:9:
+function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/../headfile/../function/log.c:9:32: fatal error: ../headfile/global.h: No such file or directory
+ #include "../headfile/global.h"
+                                ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.88s
+
+2019/1/26 16:56:18: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from function/log.c:9:0:
+function/../headfile/global.h:23:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str );
+      ^
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o function/log.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/log.o: In function `log':
+D:\hujun\c\LibManageSys-c/function/log.c:13: multiple definition of `log'
+main.o:D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 编译时间: 3.38s
+
+2019/1/26 16:58:24: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+function/log.c: In function 'log':
+function/log.c:14:5: error: unknown type name 'FILE'
+     FILE *file;
+     ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 编译时间: 0.33s
+
+2019/1/26 16:58:29: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+function/log.c: In function 'log':
+function/log.c:14:5: error: unknown type name 'FILE'
+     FILE *file;
+     ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:35: recipe for target 'function/log.o' failed
+mingw32-make.exe: *** [function/log.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 1
+- 编译时间: 0.38s
+
+2019/1/26 16:58:50: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+function/log.c: In function 'log':
+function/log.c:20:2: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  p_str = (char *)malloc( sizeof(char) );
+  ^
+function/log.c:20:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  p_str = (char *)malloc( sizeof(char) );
+                  ^
+function/log.c:21:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  p_str = strcat( ctime( &curtime ), str );
+  ^
+function/log.c:21:10: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  p_str = strcat( ctime( &curtime ), str );
+          ^
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o function/log.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/log.o: In function `log':
+D:\hujun\c\LibManageSys-c/function/log.c:13: multiple definition of `log'
+main.o:D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 5
+- 编译时间: 0.70s
+
+2019/1/26 17:13:45: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c test/h-file-test/file1.c -o test/h-file-test/file1.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+test/h-file-test/file1.c:8:19: fatal error: struct.h: No such file or directory
+ #include<struct.h>
+                   ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:38: recipe for target 'test/h-file-test/file1.o' failed
+mingw32-make.exe: *** [test/h-file-test/file1.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.44s
+
+2019/1/26 17:14:09: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c test/h-file-test/file1.c -o test/h-file-test/file1.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+test/h-file-test/file1.c: In function 'Initlist':
+test/h-file-test/file1.c:16:2: error: 'Sqlist' has no member named 'listsize'
+ L->listsize=100;
+  ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:38: recipe for target 'test/h-file-test/file1.o' failed
+mingw32-make.exe: *** [test/h-file-test/file1.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.50s
+
+2019/1/26 17:14:20: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c test/h-file-test/file1.c -o test/h-file-test/file1.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+gcc.exe -D__DEBUG__ -c test/h-file-test/file2.c -o test/h-file-test/file2.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+test/h-file-test/file2.c:18:37: fatal error: file1.h: No such file or directory
+ #include<file1.h> //为了调用外部函数
+                                     ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:41: recipe for target 'test/h-file-test/file2.o' failed
+mingw32-make.exe: *** [test/h-file-test/file2.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.61s
+
+2019/1/26 17:14:40: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c test/h-file-test/file2.c -o test/h-file-test/file2.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+test/h-file-test/file2.c: In function 'main':
+test/h-file-test/file2.c:26:30: error: 'Sqlist' has no member named 'listsize'
+ printf("%d,%d\n",La.length,La.listsize);
+                              ^
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:41: recipe for target 'test/h-file-test/file2.o' failed
+mingw32-make.exe: *** [test/h-file-test/file2.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.44s
+
+2019/1/26 17:14:50: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c test/h-file-test/file2.c -o test/h-file-test/file2.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/log.o: In function `log':
+D:\hujun\c\LibManageSys-c/function/log.c:13: multiple definition of `log'
+main.o:D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+test/h-file-test/file2.o: In function `main':
+D:\hujun\c\LibManageSys-c/test/h-file-test/file2.c:20: multiple definition of `main'
+main.o:D:\hujun\c\LibManageSys-c/main.c:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.92s
+
+2019/1/26 17:15:25: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+function/log.o: In function `log':
+D:\hujun\c\LibManageSys-c/function/log.c:13: multiple definition of `log'
+main.o:D:\hujun\c\LibManageSys-c/headfile/../function/log.c:13: first defined here
+test/h-file-test/file2.o: In function `main':
+D:\hujun\c\LibManageSys-c/test/h-file-test/file2.c:20: multiple definition of `main'
+main.o:D:\hujun\c\LibManageSys-c/main.c:8: first defined here
+collect2.exe: error: ld returned 1 exit status
+D:\hujun\c\LibManageSys-c\Makefile.win:26: recipe for target 'LibManageSys-c.exe' failed
+mingw32-make.exe: *** [LibManageSys-c.exe] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.78s
+
+2019/1/26 17:18:53: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.59s
+
+2019/1/26 17:19:07: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.42s
+
+2019/1/26 17:19:24: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.38s
+
+2019/1/26 17:19:30: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.39s
+
+2019/1/26 17:19:36: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.39s
+
+2019/1/26 17:19:40: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.34s
+
+2019/1/26 17:19:42: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.33s
+
+2019/1/26 17:19:42: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.39s
+
+2019/1/26 17:19:43: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.33s
+
+2019/1/26 17:19:52: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.36s
+
+2019/1/26 17:20:09: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.41s
+
+2019/1/26 17:20:11: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.33s
+
+2019/1/26 17:20:11: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.33s
+
+2019/1/26 17:20:12: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.34s
+
+2019/1/26 17:20:23: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.38s
+
+2019/1/26 17:20:35: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" clean all
+
+rm.exe -f main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res LibManageSys-c.exe
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.69s
+
+2019/1/26 17:21:11: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" clean all
+
+rm.exe -f main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res LibManageSys-c.exe
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.39s
+
+2019/1/26 17:22:09: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.55s
+
+2019/1/26 17:22:17: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from main.c:7:0:
+headfile/books.h:18:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+main.c: In function 'main2':
+main.c:10:5: warning: implicit declaration of function 'log' [-Wimplicit-function-declaration]
+     log( "运行测试" ); 
+     ^
+main.c:10:5: warning: incompatible implicit declaration of built-in function 'log' [enabled by default]
+main.c:10:5: error: incompatible type for argument 1 of 'log'
+compilation terminated due to -Wfatal-errors.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 3
+- 编译时间: 0.48s
+
+2019/1/26 17:22:23: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+In file included from main.c:7:0:
+headfile/books.h:18:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+gcc.exe -D__DEBUG__ -c function/file_operate.c -o function/file_operate.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+gcc.exe -D__DEBUG__ -c function/log.c -o function/log.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+function/log.c:12:6: warning: conflicting types for built-in function 'log' [enabled by default]
+ void log( char *str )
+      ^
+function/log.c: In function 'log':
+function/log.c:20:2: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  p_str = (char *)malloc( sizeof(char) );
+  ^
+function/log.c:20:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  p_str = (char *)malloc( sizeof(char) );
+                  ^
+function/log.c:21:2: warning: implicit declaration of function 'strcat' [-Wimplicit-function-declaration]
+  p_str = strcat( ctime( &curtime ), str );
+  ^
+function/log.c:21:10: warning: incompatible implicit declaration of built-in function 'strcat' [enabled by default]
+  p_str = strcat( ctime( &curtime ), str );
+          ^
+gcc.exe -D__DEBUG__ -c test/h-file-test/file1.c -o test/h-file-test/file1.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+gcc.exe -D__DEBUG__ -c test/h-file-test/file2.c -o test/h-file-test/file2.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+windres.exe -i LibManageSys-c_private.rc --input-format=rc -o LibManageSys-c_private.res -O coff 
+gcc.exe -D__DEBUG__ main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res -o LibManageSys-c.exe -L"D:/Program Files/Dev-Cpp/MinGW64/lib" -L"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -pg -g3
+
+编译结果...
+--------
+- 错误: 0
+- 警告: 6
+- 输出文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.exe
+- 输出大小: 265.6767578125 KiB
+- 编译时间: 2.25s
+
+2019/1/26 17:22:32: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" clean all
+
+rm.exe -f main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res LibManageSys-c.exe
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.41s
+
+2019/1/26 17:22:40: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:27: fatal error: /headfile/log.h: No such file or directory
+ #include "/headfile/log.h"
+                           ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.36s
+
+2019/1/26 17:22:41: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" clean all
+
+rm.exe -f main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res LibManageSys-c.exe
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:27: fatal error: /headfile/log.h: No such file or directory
+ #include "/headfile/log.h"
+                           ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.38s
+
+2019/1/26 17:22:46: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" clean all
+
+rm.exe -f main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res LibManageSys-c.exe
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:28: fatal error: ./headfile/log.h: No such file or directory
+ #include "./headfile/log.h"
+                            ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.36s
+
+2019/1/26 17:22:58: Appending to log...
+
+重新生成整个项目...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" clean all
+
+rm.exe -f main.o function/file_operate.o function/log.o test/h-file-test/file1.o test/h-file-test/file2.o LibManageSys-c_private.res LibManageSys-c.exe
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.36s
+
+2019/1/26 17:24:00: Appending to log...
+
+编译项目变更...
+--------
+- 项目文件名: D:\hujun\c\LibManageSys-c\LibManageSys-c.dev
+- 编译器名: TDM-GCC 4.8.1 64-bit Debug
+
+生成 makefile...
+--------
+- 文件名: D:\hujun\c\LibManageSys-c\Makefile.win
+- 资源文件: D:\hujun\c\LibManageSys-c\LibManageSys-c_private.res
+
+正在处理makefile...
+--------
+- makefile处理器: D:\Program Files\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- 命令: mingw32-make.exe -f "D:\hujun\c\LibManageSys-c\Makefile.win" all
+
+gcc.exe -D__DEBUG__ -c main.c -o main.o -I"D:/Program Files/Dev-Cpp/MinGW64/include" -I"D:/Program Files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -ansi -std=c99 -Wfatal-errors -pg -g3
+main.c:6:26: fatal error: headfile/log.h: No such file or directory
+ #include "headfile/log.h"
+                          ^
+compilation terminated.
+D:\hujun\c\LibManageSys-c\Makefile.win:29: recipe for target 'main.o' failed
+mingw32-make.exe: *** [main.o] Error 1
+
+编译结果...
+--------
+- 错误: 1
+- 警告: 0
+- 编译时间: 0.33s
