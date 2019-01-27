@@ -6,14 +6,13 @@
 	Description: 文件操作类 
 */
 
-#include "global.h"
-
-typedef struct file
-{
-	char file_name[120];
-	char file_address[120];
-	int file_type;
-}File;
+#ifndef FILE_H
+#define FILE_H
+char *cover_file_name( char *file_name );
+int file_exist( char *file_name );
+int file_create( char *file_name );
+int file_open( char *file_name );
+#endif
 
  
 

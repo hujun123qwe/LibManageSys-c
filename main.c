@@ -22,6 +22,6 @@ int main(int argc, char *argv[]) {
 	
 	menu_process();
 		
-	log("test menu, divid into two parts, menu and show "); 
+	log("test menu, user login model "); 
 	return 0;
 }

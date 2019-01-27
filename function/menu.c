@@ -10,6 +10,7 @@
 #include "../headfile/input.h"
 #include "../headfile/menu.h"
 #include "../headfile/show.h"
+#include "../headfile/login.h"
 
 void menu_division(int *t)
 {
@@ -49,8 +50,22 @@ void menu_login_in()
 	input_str( user_name );
 	input_str( user_password );
 	
-	show_info( user_name );
-	show_info( user_password );			
+	int re = user_login_in( user_name, user_password );
+	if( re == 0 )
+	{
+		show_info( "login successed !" );
+	}
+	else if( re == 1 )
+	{
+		show_info( "user name can not find !" );
+	}
+	else
+	{
+		show_info( "password error !" );
+	}
+	
+	//show_info( user_name );
+	//show_info( user_password );			
 }
    
 void menu_search_books()
