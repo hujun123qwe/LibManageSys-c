@@ -20,3 +20,11 @@ void input_str( char *str )
 {
 	scanf("%s", str);
 }
+
+int input_r( char *str )
+{
+	printf( "%s\n", str);
+	int n;
+	scanf("%d", &n);
+	return( n );
+}

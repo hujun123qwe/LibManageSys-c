@@ -11,4 +11,5 @@
 #define INPUT_H
 void input( int *t );
 void input_str( char *str );
+int input_r( char *str );
 #endif
